@@ -1,4 +1,4 @@
-from os.path import basename, dirname, exists, isdir, isfile, join, realpath, split
+from os.path import basename, dirname, exists, isdir, isfile, join, realpath, split, isabs
 import glob
 from shutil import rmtree
 from six import with_metaclass
@@ -225,7 +225,10 @@ class Recipe(with_metaclass(RecipeMeta)):
                     shprint(sh.git, 'pull', '--recurse-submodules')
                     shprint(sh.git, 'submodule', 'update', '--recursive')
             else:
-                if url.startswith('git+'):
+                if url.startswith('git+file:'):
+                    url = url[9:]
+                    assert isabs(url)
+                elif url.startswith('git+'):
                     url = url[4:]
                 shprint(sh.git, 'clone', '--recursive', url, target)
                 if self.version:
