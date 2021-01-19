@@ -1,6 +1,9 @@
 {
   "dependencies": {
     "@datafire/google_firebasedatabase": "3.0.0",
-    "@datafire/gamesparks_game_details": "3.0.0"
-  }
+    "@datafire/gamesparks_game_details": "3.0.0",
+    "@datafire/rawg": "3.0.0"
+  },
+  "name": "cosine",
+  "version": "1.0.0"
 }
