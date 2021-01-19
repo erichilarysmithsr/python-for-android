@@ -25,6 +25,17 @@ tasks:
       array: ''
       input:
         apiKey: '""'
+  task2:
+    schedule: cron(5 8 ? * 0)
+    action: rawg/platforms_read
+    accounts: {}
+    monitor:
+      action: rawg/platforms_read
+      accounts: {}
+      trackBy: ''
+      array: ''
+      input:
+        id: 0
 paths:
   /paths0:
     get:
