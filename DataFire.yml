@@ -13,6 +13,17 @@ tasks:
       accounts: {}
       trackBy: ''
       array: ''
+  task1:
+    schedule: cron(5 8 ? * 0)
+    action: gamesparks_game_details/getGamesEndpointsUsingGET
+    accounts: {}
+    monitor:
+      action: gamesparks_game_details/getGamesEndpointsUsingGET
+      accounts: {}
+      trackBy: ''
+      array: ''
+      input:
+        apiKey: '""'
 paths:
   /paths0:
     get:
