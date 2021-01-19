@@ -12,3 +12,8 @@ tasks:
       accounts: {}
       trackBy: ''
       array: ''
+paths:
+  /paths0:
+    get:
+      action: google_firebasedatabase/oauthCallback
+      accounts: {}
