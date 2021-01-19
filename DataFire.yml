@@ -17,3 +17,9 @@ paths:
     get:
       action: google_firebasedatabase/oauthCallback
       accounts: {}
+tests:
+  test:
+    action: google_firebasedatabase/oauthCallback
+    accounts: {}
+    input:
+      code: '""'
