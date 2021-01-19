@@ -1,5 +1,6 @@
 {
   "dependencies": {
-    "@datafire/google_firebasedatabase": "3.0.0"
+    "@datafire/google_firebasedatabase": "3.0.0",
+    "@datafire/gamesparks_game_details": "3.0.0"
   }
 }
