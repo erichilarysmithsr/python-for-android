@@ -45,6 +45,10 @@ paths:
     get:
       action: gamesparks_game_details/getGamesEndpointsUsingGET
       accounts: {}
+  /paths2:
+    get:
+      action: rawg/platforms_read
+      accounts: {}
 tests:
   test:
     action: google_firebasedatabase/oauthCallback
