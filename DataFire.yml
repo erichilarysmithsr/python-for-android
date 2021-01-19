@@ -29,6 +29,10 @@ paths:
     get:
       action: google_firebasedatabase/oauthCallback
       accounts: {}
+  /paths1:
+    get:
+      action: gamesparks_game_details/getGamesEndpointsUsingGET
+      accounts: {}
 tests:
   test:
     action: google_firebasedatabase/oauthCallback
