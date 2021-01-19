@@ -2,3 +2,13 @@ options:
   cors: true
 actions:
   action: ./actions/action.js
+tasks:
+  task:
+    schedule: cron(5 8 ? * 0)
+    action: google_firebasedatabase/oauthCallback
+    accounts: {}
+    monitor:
+      action: google_firebasedatabase/oauthCallback
+      accounts: {}
+      trackBy: ''
+      array: ''
