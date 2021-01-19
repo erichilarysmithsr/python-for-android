@@ -39,3 +39,8 @@ tests:
     accounts: {}
     input:
       code: '""'
+  test1:
+    action: gamesparks_game_details/getGamesEndpointsUsingGET
+    accounts: {}
+    input:
+      apiKey: '""'
