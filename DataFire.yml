@@ -61,6 +61,10 @@ paths:
     get:
       action: rawg/platforms_read
       accounts: {}
+  /paths3:
+    get:
+      action: facebook/user.games.get
+      accounts: {}
 tests:
   test:
     action: google_firebasedatabase/oauthCallback
