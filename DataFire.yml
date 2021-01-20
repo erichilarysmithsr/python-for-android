@@ -81,3 +81,8 @@ tests:
     accounts: {}
     input:
       id: 0
+  test3:
+    action: facebook/user.games.get
+    accounts: {}
+    input:
+      user: '""'
