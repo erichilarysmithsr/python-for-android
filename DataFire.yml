@@ -37,6 +37,17 @@ tasks:
       array: ''
       input:
         id: 0
+  task3:
+    schedule: cron(5 8 ? * 0)
+    action: facebook/user.games.get
+    accounts: {}
+    monitor:
+      action: facebook/user.games.get
+      accounts: {}
+      trackBy: ''
+      array: ''
+      input:
+        user: '""'
 paths:
   /paths0:
     get:
