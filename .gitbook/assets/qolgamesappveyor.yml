@@ -1,0 +1,22 @@
+version: 1.0.{build}
+environment:
+  INT: 32
+services: mysql
+hosts:
+  publicnuisancecitygame.servegame.com: 107.77.173.29
+nuget:
+  project_feed: true
+build: off
+deploy:
+- provider: Webhook
+  url: https://api.postmarkapp.com/message-streams/{qol-vaccine-games}
+  on:
+    branch: Master
+    INT: 32
+notifications:
+- provider: Webhook
+  url: https://api.postmarkapp.com/message-streams/{cosine-game-forum}
+  method: POST
+  on_build_success: true
+  on_build_failure: false
+  on_build_status_changed: false
