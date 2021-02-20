@@ -20,3 +20,14 @@ notifications:
   on_build_success: true
   on_build_failure: false
   on_build_status_changed: false
+  - name: Setup JFrog CLI
+  uses: jfrog/setup-jfrog-cli@v1.1.1
+- name: jFrog CLI for Artifactory
+  uses: advancedcsg-open/action-jfrog-cli@v1.2.0
+- name: JFrog CLI
+  uses: Deepakanandrao/jfrog-cli@v3
+- name: JFrog CLI for GitHub Actions
+  uses: katcosgrove/jfrogcli-action@v1.0.0-beta
+
+  
+  
