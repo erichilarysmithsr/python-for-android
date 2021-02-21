@@ -17,7 +17,7 @@ This endpoint allows you to get free cakes.
 {% api-method-request %}
 {% api-method-path-parameters %}
 {% api-method-parameter name="id" type="object" %}
-Neighborhood
+BlueNeighborhood
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
 
@@ -28,6 +28,10 @@ Token Bearer
 {% endapi-method-headers %}
 
 {% api-method-query-parameters %}
+{% api-method-parameter name="" type="string" required=false %}
+
+{% endapi-method-parameter %}
+
 {% api-method-parameter name="blueNeighborhood" type="string" %}
 BlueNeighborhood
 {% endapi-method-parameter %}
