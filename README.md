@@ -4,7 +4,7 @@ description: Epidemic Seasons 1 - 9
 
 # Quality of Life Games
 
-{% api-method method="get" host="https://qualityoflifegames.apiary.io" path="/v1/epidemicseasons/:id" %}
+{% api-method method="get" host="https://qualityoflifegames.apiary.io" path="/v1/epidemicseasons/:PlaceidNeighborhood" %}
 {% api-method-summary %}
 Get Epidemic Seasons
 {% endapi-method-summary %}
