@@ -28,12 +28,12 @@ Authentication token to track down who is emptying our stocks.
 {% endapi-method-headers %}
 
 {% api-method-query-parameters %}
-{% api-method-parameter name="recipe" type="string" %}
-The API will do its best to find a cake matching the provided recipe.
+{% api-method-parameter name="blueNeighborhood" type="string" %}
+BlueNeighborhood
 {% endapi-method-parameter %}
 
-{% api-method-parameter name="gluten" type="boolean" %}
-Whether the cake should be gluten-free or not.
+{% api-method-parameter name="redNeighborhood" type="string" %}
+RedNeighborhood
 {% endapi-method-parameter %}
 {% endapi-method-query-parameters %}
 {% endapi-method-request %}
