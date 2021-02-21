@@ -72,6 +72,20 @@ BlueNeighborhood
 RedNeighborhood
 {% endapi-method-parameter %}
 {% endapi-method-query-parameters %}
+
+{% api-method-form-data-parameters %}
+{% api-method-parameter name="PurpleNeighborhood" type="boolean" required=false %}
+True
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="YellowNeighborhood" type="boolean" required=false %}
+True
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="RedNeighborhood" type="boolean" required=false %}
+True
+{% endapi-method-parameter %}
+{% endapi-method-form-data-parameters %}
 {% endapi-method-request %}
 
 {% api-method-response %}
