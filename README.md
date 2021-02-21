@@ -23,7 +23,7 @@ Neighborhood
 
 {% api-method-headers %}
 {% api-method-parameter name="Authentication" type="string" required=true %}
-Authentication token to track down who is emptying our stocks.
+Token Bearer
 {% endapi-method-parameter %}
 {% endapi-method-headers %}
 
