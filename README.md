@@ -6,7 +6,7 @@ description: Epidemic Seasons 1 - 9
 
 {% api-method method="get" host="https://qualityoflifegames.apiary.io" path="/v1/epidemicseasons/:PlaceidNeighborhood" %}
 {% api-method-summary %}
-Get Epidemic Seasons
+Get Epidemic Seasons Message Streams
 {% endapi-method-summary %}
 
 {% api-method-description %}
