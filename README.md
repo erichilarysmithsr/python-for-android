@@ -10,7 +10,7 @@ Get Epidemic Seasons
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This endpoint allows you to get free cakes.
+This endpoint allows you to connect to HTTP Postmark Quality of Life Message Stream
 {% endapi-method-description %}
 
 {% api-method-spec %}
