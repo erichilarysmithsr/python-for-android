@@ -16,6 +16,10 @@ This endpoint allows you to connect to HTTP Postmark Quality of Life Message Str
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-path-parameters %}
+{% api-method-parameter name="id" type="object" required=false %}
+RedNeighborhood
+{% endapi-method-parameter %}
+
 {% api-method-parameter name="id" type="object" %}
 BlueNeighborhood
 {% endapi-method-parameter %}
