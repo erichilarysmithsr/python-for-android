@@ -22,7 +22,7 @@ BlueNeighborhood
 {% endapi-method-path-parameters %}
 
 {% api-method-headers %}
-{% api-method-parameter name="Authentication" type="string" required=true %}
+{% api-method-parameter name="Authentication" type="integer" required=true %}
 Token Bearer
 {% endapi-method-parameter %}
 {% endapi-method-headers %}
