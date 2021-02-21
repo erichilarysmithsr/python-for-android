@@ -28,6 +28,14 @@ Token Bearer
 {% endapi-method-headers %}
 
 {% api-method-query-parameters %}
+{% api-method-parameter name="purpleNeighborhood" type="string" required=false %}
+PurpleNeighborhood
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="orangeNeighborhood" type="string" required=false %}
+OrangeNeighborhood
+{% endapi-method-parameter %}
+
 {% api-method-parameter name="greenNeighborhood" type="string" required=false %}
 GreenNeighborhood
 {% endapi-method-parameter %}
