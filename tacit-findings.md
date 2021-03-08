@@ -1,6 +1,8 @@
 ---
-description: Epidemic Season 1
+description: >-
+  Players are races of populations who live in neighborhoods in Public Nuisance
+  City.
 ---
 
-# Tacit Findings
+# Players
 
