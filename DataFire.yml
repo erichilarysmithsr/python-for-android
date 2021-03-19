@@ -103,6 +103,19 @@ tasks:
       array: ''
       input:
         code: '""'
+  task8:
+    schedule: cron(5 8 ? * 0)
+    action: google_gameservices/gameservices.projects.locations.realms.create
+    accounts: {}
+    monitor:
+      action: google_gameservices/gameservices.projects.locations.realms.create
+      accounts: {}
+      trackBy: ''
+      array: error.details
+      input:
+        body: {}
+        parent: '""'
+        prettyPrint: true
 paths:
   /paths0:
     get:
