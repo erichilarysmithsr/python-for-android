@@ -6,7 +6,8 @@
     "@datafire/facebook": "5.0.0",
     "@datafire/mongodb": "2.1.1",
     "@datafire/google_sheets": "6.0.0",
-    "@datafire/google_appstate": "6.0.0"
+    "@datafire/google_appstate": "6.0.0",
+    "@datafire/google_gameservices": "3.0.0"
   },
   "name": "cosine",
   "version": "1.0.0"
