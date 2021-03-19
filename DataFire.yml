@@ -102,3 +102,9 @@ tests:
     accounts: {}
     input:
       user: '""'
+  test4:
+    action: gamesparks_game_details/updateSegmentQueryFiltersConfigUsingPUT
+    accounts: {}
+    input:
+      segmentQueryConfig: {}
+      apiKey: '""'
