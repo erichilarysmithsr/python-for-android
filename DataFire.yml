@@ -62,6 +62,20 @@ tasks:
       input:
         segmentQueryConfig: {}
         apiKey: '""'
+  task5:
+    schedule: cron(5 8 ? * 0)
+    action: mongodb/find
+    accounts: {}
+    monitor:
+      action: mongodb/find
+      accounts: {}
+      trackBy: ''
+      input:
+        query:
+          '""': true
+          INT: 0
+        projection: {}
+        collection: '""'
 paths:
   /paths0:
     get:
