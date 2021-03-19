@@ -131,6 +131,10 @@ paths:
     get:
       action: google_sheets/sheets.spreadsheets.developerMetadata.get
       accounts: {}
+  /paths7:
+    get:
+      action: google_appstate/oauthCallback
+      accounts: {}
 tests:
   test:
     action: google_firebasedatabase/oauthCallback
