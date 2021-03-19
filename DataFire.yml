@@ -115,6 +115,10 @@ paths:
     get:
       action: mongodb/find
       accounts: {}
+  /paths6:
+    get:
+      action: google_sheets/sheets.spreadsheets.developerMetadata.get
+      accounts: {}
 tests:
   test:
     action: google_firebasedatabase/oauthCallback
