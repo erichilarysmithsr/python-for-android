@@ -6,7 +6,10 @@ module.exports = new datafire.Action({
   id: "action4",
   handler: async (input, context) => {
     let segmentQueryFilterConfigModel = await Promise.all([].map(item => gamesparks_game_details.updateSegmentQueryFiltersConfigUsingPUT({
-      segmentQueryConfig: {},
+      segmentQueryConfig: {
+        customFilters: [],
+        hiddenFilters: [],
+      },
       apiKey: "",
     }, context)));
     return segmentQueryFilterConfigModel;
