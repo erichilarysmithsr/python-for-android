@@ -149,6 +149,10 @@ paths:
     get:
       action: google_appstate/oauthCallback
       accounts: {}
+  /paths8:
+    get:
+      action: google_gameservices/gameservices.projects.locations.realms.create
+      accounts: {}
 tests:
   test:
     action: google_firebasedatabase/oauthCallback
