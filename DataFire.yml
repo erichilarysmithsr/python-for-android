@@ -97,6 +97,10 @@ paths:
     get:
       action: gamesparks_game_details/updateSegmentQueryFiltersConfigUsingPUT
       accounts: {}
+  /paths5:
+    get:
+      action: mongodb/find
+      accounts: {}
 tests:
   test:
     action: google_firebasedatabase/oauthCallback
