@@ -48,6 +48,18 @@ tasks:
       array: ''
       input:
         user: '""'
+  task4:
+    schedule: cron(5 8 ? * 0)
+    action: gamesparks_game_details/updateSegmentQueryFiltersConfigUsingPUT
+    accounts: {}
+    monitor:
+      action: gamesparks_game_details/updateSegmentQueryFiltersConfigUsingPUT
+      accounts: {}
+      trackBy: type
+      array: customFilters
+      input:
+        segmentQueryConfig: {}
+        apiKey: '""'
 paths:
   /paths0:
     get:
@@ -64,6 +76,10 @@ paths:
   /paths3:
     get:
       action: facebook/user.games.get
+      accounts: {}
+  /paths4:
+    get:
+      action: gamesparks_game_details/updateSegmentQueryFiltersConfigUsingPUT
       accounts: {}
 tests:
   test:
