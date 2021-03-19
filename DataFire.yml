@@ -128,3 +128,13 @@ tests:
     input:
       segmentQueryConfig: {}
       apiKey: '""'
+  test5:
+    action: mongodb/find
+    accounts: {}
+    input:
+      query:
+        '""': ''
+        INT: 0
+      projection:
+        '""': false
+      collection: '""'
