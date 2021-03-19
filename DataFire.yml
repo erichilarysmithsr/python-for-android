@@ -179,3 +179,8 @@ tests:
       spreadsheetId: '""'
       metadataId: 32
       prettyPrint: true
+  test7:
+    action: google_appstate/oauthCallback
+    accounts: {}
+    input:
+      code: '""'
