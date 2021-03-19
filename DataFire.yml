@@ -77,6 +77,19 @@ tasks:
           INT: 0
         projection: {}
         collection: '""'
+  task6:
+    schedule: cron(5 8 ? * 0)
+    action: google_sheets/sheets.spreadsheets.developerMetadata.get
+    accounts: {}
+    monitor:
+      action: google_sheets/sheets.spreadsheets.developerMetadata.get
+      accounts: {}
+      trackBy: ''
+      array: ''
+      input:
+        spreadsheetId: '""'
+        metadataId: 32
+        prettyPrint: true
 paths:
   /paths0:
     get:
