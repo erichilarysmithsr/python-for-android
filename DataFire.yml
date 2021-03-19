@@ -156,3 +156,10 @@ tests:
       projection:
         '""': false
       collection: '""'
+  test6:
+    action: google_sheets/sheets.spreadsheets.developerMetadata.get
+    accounts: {}
+    input:
+      spreadsheetId: '""'
+      metadataId: 32
+      prettyPrint: true
