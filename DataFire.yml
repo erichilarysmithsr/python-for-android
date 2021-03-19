@@ -202,3 +202,10 @@ tests:
     accounts: {}
     input:
       code: '""'
+  test8:
+    action: google_gameservices/gameservices.projects.locations.realms.create
+    accounts: {}
+    input:
+      body: {}
+      parent: '""'
+      prettyPrint: true
