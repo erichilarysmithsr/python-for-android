@@ -117,6 +117,25 @@ tasks:
         body: {}
         parent: '""'
         prettyPrint: true
+  task9:
+    schedule: cron(5 8 ? * 0)
+    action: here_positioning/locate.post
+    accounts: {}
+    monitor:
+      action: here_positioning/locate.post
+      accounts: {}
+      trackBy: ''
+      array: ''
+      input:
+        observations_locate:
+          client:
+            manufacturer: '""'
+            model: '""'
+            name: '""'
+            version: '""'
+            platform: '""'
+          wlan: []
+        Content-Type: '""'
 paths:
   /paths0:
     get:
