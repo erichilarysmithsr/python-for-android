@@ -233,3 +233,14 @@ tests:
       body: {}
       parent: '""'
       prettyPrint: true
+  test9:
+    action: here_positioning/locate.post
+    accounts: {}
+    input:
+      observations_locate:
+        client:
+          manufacturer: '""'
+          model: '""'
+          name: '""'
+          version: '""'
+      Content-Type: '""'
