@@ -173,6 +173,10 @@ paths:
     get:
       action: google_gameservices/gameservices.projects.locations.realms.create
       accounts: {}
+  /paths9:
+    get:
+      action: here_positioning/locate.post
+      accounts: {}
 tests:
   test:
     action: google_firebasedatabase/oauthCallback
